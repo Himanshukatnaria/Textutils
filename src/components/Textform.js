@@ -50,13 +50,11 @@ export default function Textform() {
   <label htmlFor="myBox" className="form-label"></label>
   <textarea className="form-control" value={text} onChange={handleOnChange} id="myBox" rows="7"></textarea>
 </div>
-    <button className="btn btn-primary" onClick={handleUpClick}>Convert to uppercase</button>
-    <button className="btn btn-primary" onClick={handleLoClick} style={{margin: '10px'}}>Convert to lowercase</button>
-    <button className="btn btn-primary" onClick={handleExtraSpaces}style={{margin: '10px'}}>Remove Extra Spaces</button>
-    
-    <button className="btn btn-primary" onClick={handleCopyText}style={{margin: '10px'}}>Copy Text</button>
-    
-    <button className="btn btn-primary" onClick={handleclearClick}>Clear Text</button>
+    <button className="btn btn-primary mx-1 my-1" onClick={handleUpClick}>Convert to uppercase</button>
+    <button className="btn btn-primary mx-1 my-1" onClick={handleLoClick} style={{margin: '10px'}}>Convert to lowercase</button>
+    <button className="btn btn-primary mx-1 my-1" onClick={handleExtraSpaces}style={{margin: '10px'}}>Remove Extra Spaces</button>
+    <button className="btn btn-primary mx-1 my-1" onClick={handleCopyText}style={{margin: '10px'}}>Copy Text</button>
+    <button className="btn btn-primary mx-1 my-1" onClick={handleclearClick}>Clear Text</button>
 
   
     
